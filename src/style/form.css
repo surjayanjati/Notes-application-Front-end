@@ -1,0 +1,175 @@
+/* Main Box Styling For The Container      */
+
+.whole-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-box{
+    height: 70%;
+    width: 25%;
+    background-color: azure;
+    box-shadow: 2px 2px 14px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Media query For Main-Box Div*/
+@media  screen and (max-width:1000px) {
+    .main-box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:870px) {
+    .main-box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+    .main-box{
+        width: 50%;
+    }
+}
+@media screen and (max-width:450px) {
+    .main-box{
+        width: 70%;
+    }
+}
+
+/* Styling For The Logo Box */
+
+#box1{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box1 #circle-box{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ border-radius: 50%;
+   
+    background-color: brown;
+}
+#box1 #circle-box i{
+   font-size: 2rem;
+}
+
+
+/* Box 2 Styling  */
+
+#box2 {
+    height: 55%;
+    width: 100%;
+}
+#box2 form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+
+/* Styling Of Form Element Box */
+
+.form-element-box{
+  margin-bottom: 10%;
+  height: 15%;
+  width: 80%;
+  border: 2px solid brown;
+  box-shadow: 2px 2px 4px 1px black;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Form Inside Box Element Div styling */
+
+.input-box1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+.input-box1 i{
+  font-size: 1.2rem;
+}
+.input-box2{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-box2 input{
+    height: 90%;
+    width: 100%;
+
+    outline: none;
+    border: none;
+    font-weight: 900;
+color: black;
+ 
+}
+
+/* For Third Element Div Styling  */
+
+#button-div {
+    margin-bottom: 15%;
+    height: 15%;
+    width: 80%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px 1px black;
+    border: 4px solid #0275d8;
+}
+#button-div button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #0275d8;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+/* Box 3 Styling------------------------------------------  */
+
+#box3{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#box3 p{
+    font-weight: 600;
+}
+#box3 a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: brown;
+    cursor: pointer;
+}
+#box3 #server-msg{
+    font-size: 0.8rem;
+}

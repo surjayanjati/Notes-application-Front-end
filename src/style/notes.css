@@ -1,0 +1,237 @@
+/* Main Box Styling For The Container      */
+
+.whole-containeri{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-boxi{
+      height: 90%;
+      width: 35%;
+      background-color: azure;
+      box-shadow: 2px 2px 14px 2px black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  /* Media query For Main-Box Div*/
+  @media  screen and (max-width:1000px) {
+      .main-boxi{
+          width: 40%;
+      }
+  }
+  @media screen and (max-width:870px) {
+      .main-boxi{
+          width: 40%;
+      }
+  }
+  @media screen and (max-width:600px) {
+      .main-boxi{
+          width: 70%;
+      }
+  }
+  @media screen and (max-width:450px) {
+      .main-boxi{
+          width: 90%;
+      }
+  }
+  
+  /* Styling For The Logo Box */
+  
+  #box1i{
+      height: 15%;
+      width: 90%;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      
+  }
+  .box1-firstboxi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #box1i #circle-boxi{
+      height: 50%;
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   border-radius: 50%;
+     
+      background-color: brown;
+  }
+  #box1i #circle-boxi i{
+     font-size: 2rem;
+  }
+  #logoutBtn{
+    width: 90%;
+    height: 50%;
+    font-size: 1.2rem;
+    background-color: brown;
+    color: white;
+    border: 5px solid brown;
+    border-radius: 6%;
+    cursor: pointer;
+  }
+  
+  /* Box 2 Styling  */
+  
+  #box2i {
+      height: 20%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #box2i form{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     align-items: center;
+  }
+  
+  /* Styling Of Form Element Box */
+  
+  .form-element-boxi{
+    margin-bottom: 5%;
+    height: 35%;
+    width: 80%;
+    border: 2px solid brown;
+    box-shadow: 2px 2px 4px 1px black;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Form Inside Box Element Div styling */
+  
+  .input-box1{
+      height: 100%;
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: brown;
+  }
+  .input-box1 i{
+    font-size: 1.2rem;
+  }
+  .input-box2{
+      height: 100%;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .input-box2 input{
+      height: 90%;
+      width: 100%;
+  
+      outline: none;
+      border: none;
+      font-weight: 900;
+  color: black;
+   
+  }
+  
+  /* For Third Element Div Styling  */
+  
+  #button-divi {
+      
+      height: 25%;
+      width: 80%;
+      border-radius: 5%;
+      box-shadow: 2px 2px 4px 1px black;
+      border: 4px solid #0275d8;
+  }
+  #button-divi button {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #0275d8;
+    font-size: 1.2rem;
+    font-weight: 600;
+  
+  }
+  
+  /* Box 3 Styling------------------------------------------  */
+  
+  #box3{
+      height: 15%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      
+  }
+  #box3 p{
+      font-weight: 600;
+  }
+  #box3 a{
+      list-style: none;
+      text-decoration: none;
+      color: brown;
+  }
+  #box3 #server-msg{
+      font-size: 0.8rem;
+  }
+  #notesseparater{
+    
+    color: black;
+    width: 90%;
+    background-color: black;
+    padding-bottom: 2px;
+
+  }
+
+  /* Box 3 Notes Showinng Box Styling ----------------------------------*/
+  .box3{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .box3-notebox{
+    height: 15%;
+    width: 96%;
+    
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+   .textbox{
+  width: 70%;
+  display: flex;
+  margin-left: 1%;
+  flex-direction: row;
+  
+  align-items: center;
+  }
+  .buttonbox{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .buttonbox i{
+   font-size: 1.5rem;
+   cursor: pointer;
+    }
